@@ -60,14 +60,14 @@ document.getElementById("closeModalBtn").onclick = function () {
 
 // Array of background image URLs
 const backgrounds = [
-  'url("/img/bg1.jpg")',
-  'url("/img/bg2.jpg")',
-  'url("/img/bg3.jpg")',
-  'url("/img/bg4.jpg")',
-  'url("/img/bg5.jpg")',
-  'url("/img/bg6.jpg")',
-  'url("/img/bg7.jpg")',
-  'url("/img/bg8.jpg")',
+  'url("img/bg1.jpg")',
+  'url("img/bg2.jpg")',
+  'url("img/bg3.jpg")',
+  'url("img/bg4.jpg")',
+  'url("img/bg5.jpg")',
+  'url("img/bg6.jpg")',
+  'url("img/bg7.jpg")',
+  'url("img/bg8.jpg")',
 ];
 // Function to randomize background
 function randomizeBackground() {
