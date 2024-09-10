@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Blog</title>
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Laplace<span>Diary</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      <!-- ubah navbar nav jadi hamburger menu, pindahkan humberger menu ke navbar nav -->
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Modal for mobile users -->
+    <div id="mobileModal" class="modal">
+      <div class="modal-content">
+        <h2>Best Viewed on a Laptop</h2>
+        <p>
+          For the best experience, please open this website on a laptop or a
+          larger screen. <br /><b><span>Click "X" to continue</span> </b>
+        </p>
+        <span class="close-modal" id="closeModalBtn">&times;</span>
+      </div>
+    </div>
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Muhammad <span>Djibriel</span> Maulidan</h1>
+        <p>
+          Mahasiswa semester pertama
+          <b><span>Universitas Nusa Putra</span></b> Jurusan Teknik Informatika.
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About me start-->
+    <section id="about" class="about">
+      <h2><span>TENTANG</span> SAYA</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="/img/me.jpg" alt="About Me" />
+        </div>
+        <div class="content">
+          <h3>Kesan saya menjadi Maba</h3>
+          <p>
+            Setelah beberapa hari mengikuti kegiatan mabim di Universitas Nusa
+            Putra, saya merasa sangat senang karena kegiatannya begitu seru dan
+            menyenangkan. Salah satu momen paling berkesan bagi saya adalah saat
+            pengenalan program studi, di mana saya berada di satu ruangan
+            bersama mahasiswa internasional. Rasanya luar biasa, seperti saya
+            sudah memasuki ranah global, dan hal ini memotivasi saya untuk
+            semakin terbuka terhadap berbagai perspektif dan pengalaman dari
+            teman-teman di seluruh dunia.
+          </p>
+          <p>
+            Saya ingin mengucapkan terima kasih kepada semua pihak yang telah
+            terlibat dalam penyelenggaraan mabim ini. Ini merupakan pengalaman
+            yang sangat berharga karena melalui kegiatan ini, saya bisa mulai
+            memahami bagaimana kehidupan kampus berjalan, bertemu dan mengenal
+            teman-teman baru, serta belajar untuk lebih mandiri dalam menghadapi
+            tantangan dunia pendidikan yang tentunya berbeda dari masa-masa di
+            SMA. Mabim juga memberikan saya pemahaman yang lebih baik tentang
+            tanggung jawab yang lebih besar yang harus dihadapi sebagai
+            mahasiswa.
+          </p>
+
+          <p>
+            Saya ingin mengucapkan terima kasih kepada semua pihak yang telah
+            terlibat dalam penyelenggaraan mabim ini. Ini merupakan pengalaman
+            yang sangat berharga karena melalui kegiatan ini, saya bisa mulai
+            memahami bagaimana kehidupan kampus berjalan, bertemu dan mengenal
+            teman-teman baru, serta belajar untuk lebih mandiri dalam menghadapi
+            tantangan dunia pendidikan yang tentunya berbeda dari masa-masa di
+            SMA. Mabim juga memberikan saya pemahaman yang lebih baik tentang
+            tanggung jawab yang lebih besar yang harus dihadapi sebagai
+            mahasiswa.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About me end-->
+
+    <!-- Album Section Start -->
+    <section class="gallery" id="gallery">
+      <div class="grid-wrapper">
+        <div class="big">
+          <img src="/img/1.jpg" alt="Gallery Image 1" />
+        </div>
+        <div>
+          <img src="/img/2.jpg" alt="Gallery Image 2" />
+        </div>
+        <div class="wide">
+          <img src="/img/3.jpg" alt="Gallery Image 3" />
+        </div>
+        <div class="tall">
+          <img src="/img/4.jpg" alt="Gallery Image 4" />
+        </div>
+        <div>
+          <img src="/img/5.jpg" alt="Gallery Image 5" />
+        </div>
+        <div class="big">
+          <img src="/img/6.jpg" alt="Gallery Image 6" />
+        </div>
+        <div class="tall">
+          <img src="/img/7.jpg" alt="Gallery Image 7" />
+        </div>
+      </div>
+      <!-- Pop up image -->
+      <div class="popup-image">
+        <span>&times;</span>
+
+        <img src="/img/1.jpg" alt="Gallery Image 1" />
+      </div>
+      <!-- View More button -->
+      <div class="view-more">
+        <a href="full-gallery.html">View More</a>
+      </div>
+    </section>
+
+    <!-- Album Section End -->
+
+    <!-- Footer section Start -->
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/djibriel.002/"><i data-feather="instagram"></i></a>
+        <a href="https://x.com/Laplace0021"><i data-feather="twitter"></i></a>
+        <a href="https://www.facebook.com/muhammad.djibrielmaulidan/"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang saya</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created by <span>Muhammad Djibriel Maulidan</span>. | &copy; 2024.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer section End -->
+    <!-- feather icon -->
+
+    <script src="navbar.js"></script>
+  </body>
+</html>
